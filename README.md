@@ -1,5 +1,16 @@
 # Inteligencia-Artificial-Embebida-para-la-Detecci-n-de-Enfermedades-en-Hojas-de-Vid
 
+INTEGRANTES:
+1.	CAMINO MARCHAND JAVIER ALEJANDRO
+2.	CRISANTO CHECA JUSTY JAIR.
+3.	IMAN CASTILLO MEYKER YASHUO
+4.	LOZADA NIMA SWALA CASSANDRA
+5.	MACALUPÚ SILVA DEYVI DANIEL
+6.	ROBLES FLORES FABRIZIO MATHEUS
+7.	VASQUEZ TAFUR JOYSER
+8.  VILLALOBOS DÍAZ ALFREDO JOSÉ ALEJANDRO
+
+   
 El sistema desarrollado tiene como finalidad identificar automáticamente enfermedades presentes en hojas de vid mediante técnicas de visión artificial y Machine Learning embebido. Todo el procesamiento relacionado con el reconocimiento de imágenes se realiza de manera local en la **ESP32-S3-EYE**, evitando la necesidad de enviar imágenes a servidores externos y permitiendo obtener una respuesta rápida, autónoma y portátil.
 
 La cámara integrada de la ESP32-S3-EYE captura una imagen de la hoja y la envía al procesador para su preprocesamiento. La imagen es adaptada al formato requerido por el modelo de inteligencia artificial y posteriormente es procesada mediante un modelo de clasificación desarrollado en la plataforma **Edge Impulse** utilizando la técnica de **Transfer Learning**.
